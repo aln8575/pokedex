@@ -14,7 +14,7 @@
     "@types/axios": "^0.14.0",
     "@vue/apollo-composable": "^4.0.2",
     "@vueuse/core": "^9.3.0",
-    "axios": "^0.27.2",
+    "axios": "^1.7.7",
     "graphql": "^16.8.1",
     "graphql-tag": "^2.12.6",
     "mosha-vue-toastify": "^1.0.23",
