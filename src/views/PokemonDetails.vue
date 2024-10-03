@@ -26,7 +26,7 @@ onMounted(async () => {
       isLoading.value = false;
     }
   } catch (e: any) {
-    createToast('Error while fetching data', { type: 'danger', position: 'bottom-right' });
+    createToast('Erro ao buscar dados', { type: 'danger', position: 'bottom-right' });
   }
   isLoading.value = false;
 });
@@ -39,7 +39,7 @@ watch(pokemonId, async () => {
       isLoading.value = false;
     }
   } catch (e: any) {
-    createToast('Error while fetching data', { type: 'danger', position: 'bottom-right' });
+    createToast('Erro ao buscar dados', { type: 'danger', position: 'bottom-right' });
   }
   isLoading.value = false;
 });

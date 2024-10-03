@@ -12,7 +12,6 @@
             to="/team">
             Time
           </router-link>
-          <badge :badge-number="teamSize" />
         </div>
       </div>
       <div class="flex ml-auto gap-x-2 pr-3">
